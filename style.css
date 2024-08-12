@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    color: black;
+    background-color: #f3eddb;
+    font: 24px / 1.2 knockout, Arial, Helvetica, sans-serif;
+    background-image: url('images/background.png');
+    background-repeat: repeat;
+    /* margin: 0 25px; */
+
+}
+/* navbar section */
+header{
+    margin: 0 25px;
+}
+header nav ul{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    line-height: 80px;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+header nav ul li a button{
+    border: none;
+    background-color: #DC1F26;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 20px;
+}
+header nav ul li a button:hover{
+    transition: all 0.5s;
+    background-color: #99161A;
+}
+/* main section */
+main{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 25px;
+    margin-top: 80px;
+}
+main .left p{
+    line-height: 1.5rem;
+    width: 450px;
+    font-size: medium;
+}
+main .left h1{
+    font-size: 100px;
+}
+main.left b{
+    color: #231F20;
+}
+main .left{
+    margin-top: 50px;
+}
+
+#fanta{
+    position: absolute;
+    width: 40%;
+    z-index: 2;
+    transform: rotate(20deg);
+    top: -30px;
+    right: 440px;
+    transition: all 0.5s;
+}
+/* seaction  */
+#section1{
+    margin: 0 25px;
+}
+#section1 h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #DC1F26;
+    font-size: 190px;
+}
+.container{
+    display: flex; 
+    flex-wrap: nowrap;
+    margin-top: 50px;
+}
+.container .cont-right{
+    margin-left: 250px;
+    width: 39%;
+}
+.container .cont-right h3{
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: bold;
+}
+.container .cont-right p{
+    font-size: medium;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+.container .cont-left p{
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color: #231F20;
+}
+/* section2 */
+#section2{
+    margin: 0 25px;
+}
+#section2 h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 135px;
+    color: #DC1F26;
+    margin-top: 50px;
+}
+#section2 .content{
+    width: 30%;
+}
+#section2 .content p{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: -3px;
+}
+.span{
+    display: flex;
+}
+#section2 .content .span1{
+    font-weight: bold;
+    font-size: 70px;
+}
+#section2 .content .span2{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: medium;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+/* section 3 */
+#splat{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 60px;
+    margin: 0 25px;
+}
+#splat .splat-left{
+    margin-left: 400px;
+}
+.rotate{
+    transform: rotate(-10deg);
+    margin-top: -50px; 
+    margin-left: 10px;
+}
+/* section 4 */
+#section4 .items{
+    text-align: center;
+    margin: 50px;
+    margin: 0 25px;
+}
+#section4 .items p{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#section4 .items h1{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+#section4 #product{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 50px;
+}
+#section4 #product .img1 img{
+    width: 300px;
+}
+#section4 #product .img1 p{
+    text-align: center;
+    font-size: medium;
+
+}
+/* section 5 */
+#section5 .readmore{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 25px;
+}
+#section5 .read-right img{
+    width: 800px;
+}
+#section5 .read-left{
+    margin-left: 50px;
+}
+#section5 .read-left h3{
+    letter-spacing: -1px;
+    margin: 20px;
+}
+#section5 .read-left h1{
+    font-size: 50px;
+    letter-spacing: -2px;
+    line-height: 50px;
+    margin: 20px;
+}
+#section5 .read-left h1:hover{
+    transition: all 0.5s;
+    color: #DC1F26;
+}
+#section5 .read-left p{
+    margin: 20px;
+    font-size: medium;
+    letter-spacing: -1px;
+    font-weight: 600;
+}
+#section5 .read-left button{
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px 30px;
+}
+#section5 .read-left button:hover{
+    transition: all 0.5s;
+    background-color:#DC1F26;
+}
+/* section 6 */
+#section6 h1{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 70px;
+  margin: 50px;
+  color: #DC1F26;
+  margin: 0 25px;
+}
+#section6 #bit button{
+    display: flex;
+    margin-left: 600px;
+    text-transform: uppercase;
+    border: none;
+    padding: 20px 30px;
+    color: white;
+    background-color: black;
+}
+#section6 #bit button:hover{
+    transition: all 0.5s;
+    background-color: #DC1F26;
+}
+.bigfre{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    text-transform: uppercase;
+}
+.frectur{
+    width: 1800px;
+}
+.frectur img{
+    width: 400px;
+}
+.frectur h2{
+    letter-spacing: -1px;
+    font-size: 27px;
+}
+.frectur p{
+    font-size: medium;
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin: 10px;
+}
+.frectur button{
+    border: none;
+    color: white;
+    background-color: #DC1F26;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px;
+}
+.frectur p a{
+    color: black;
+}
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+}
+footer img{
+    margin: 60px;
+    width: 150px;
+}
+.links{
+    display: flex;
+    align-items: center;
+}
+.navlink{
+    margin: 50px;
+}
+.navlink p{
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 60px;
+    cursor: pointer;
+}
+.navlink p:hover{
+    transition: all 0.5s;
+    color:#DC1F26;
+}
+.sinup{
+    margin: 50px;
+    padding: 50px;
+    font-size: 40px;
+}
+.sinup i:hover{
+    transition: all 0.5s;
+    color: #DC1F26;
+}
+footer .copy{
+    text-align: center;
+    margin-left: 500px;
+    font-size: medium;
+    width: 400px;
+
+
+}
